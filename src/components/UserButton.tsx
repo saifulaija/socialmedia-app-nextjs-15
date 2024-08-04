@@ -20,7 +20,6 @@ import {
 } from "./ui/dropdown-menu";
 import UserAvatar from "./UserAvatar";
 
-
 interface UserButtonProps {
   className?: string;
 }
