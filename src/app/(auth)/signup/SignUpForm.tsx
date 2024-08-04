@@ -1,6 +1,6 @@
 "use client";
 
-
+import LoadingButton from "@/components/LoadingButton";
 
 import {
   Form,
@@ -17,7 +17,6 @@ import { useState, useTransition } from "react";
 import { useForm } from "react-hook-form";
 import { signUp } from "./actions";
 import { PasswordInput } from "@/components/passwordInput";
-import LoadingButton from "@/components/LoadingButton";
 
 export default function SignUpForm() {
   const [error, setError] = useState<string>();
